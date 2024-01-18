@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDDM 115 - LuisCompean_lab01</title>
+    <style>
+        /* some animations for a smooth transition */
+        @keyframes show {
+            from {
+                opacity: 0%;
+            }
+
+            to {
+                opacity: 100%;
+            }
+        }
+
+        /* Added some font beacause i didn't like the web safe fonts  */
+        @font-face {
+            font-family: cinzel;
+            src: url(/HTML/static/Cinzel-Regular.ttf);
+        }
+
+        h2 {
+            text-align: center;
+            color: #565656;
+
+        }
+
+        body {
+            background-image: url(/HTML/wp6806737.jpg);
+            background-size: cover;
+             /* A background color just in case the background image doesn't count for the instructions and I dont get points off   */
+            background-color: rgb(114, 114, 181);
+            background-position: right;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+
+
+        h1 {
+            font-family: cinzel;
+            color: #565656;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        /* Some classes for my divs */
+
+        .divmyphoto {
+            justify-content: center;
+            display: flex;
+        }
+
+        .myphoto {
+            border-top-left-radius: 80px 80px;
+            border-bottom-right-radius: 80px 80px;
+        }
+
+        main {
+            background-color: #ffffff9e;
+            box-shadow: 2px 2px 20px 0px #00000054;
+            border-radius: 10px;
+            padding: 40px;
+            width: 70%;
+            animation-duration: 2s;
+            animation-name: show;
+            margin-top: 2%;
+            margin-bottom: 2%;
+
+        }
+
+        p {
+            text-align: center;
+        }
+
+        figcaption {
+            text-align: center;
+            color: #595959;
+        }
+        img{
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<!-- text that descrives bit of myself -->
+
+<body style="animation-name: show;">
+    <main style="display: flex;">
+        <div style="width: 50%;padding: 0 40px;">
+            <h1>Luis Compean</h1>
+
+            <p>"Death is so final, yet life is full of possibilities."<br>-Tyrion Lanister</p>
+            <h2>Hello world my name is Luis and this is a bit information about myself.</h2>
+
+            <!-- I prefere information in bullets so here is a list -->
+
+            <ul>
+                <li>
+                    Nationality: Mexican
+                </li>
+                <li>
+                    Date of birth: 02/02/1994
+                </li>
+                <li>
+                    Languages: Spanish & English
+                </li>
+                <li>
+                    Bachelors degree: Industrial Design
+                </li>
+                <li>
+                    Humber Course: Web design and development
+                </li>
+                <li>
+                    Hobbies: Video Games, Movies, Series, Gym, Traveling.
+                </li>
+
+            </ul>
+            <h2>Here is a song I like, hope you enjoy it too.</h2>
+            <!--A song I like just because-->
+            <audio controls autoplay style="width: 100%;">
+                <source src="/HTML/Duncan Laurence - Arcade .mp3" type="audio/ogg">
+                <source src="/HTML/Duncan Laurence - Arcade .mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+
+            </audio>
+            <!--A caption with the link for my song in case you want to add it to your playlist-->
+            <figcaption>If you like the song you can checkout the music video <a
+                    href="https://www.youtube.com/watch?v=51u5fnyrGj4">Here</a>.</figcaption>
+        </div>
+        <div style="width: 50%;">
+
+            <!--This is an image of me in Saint Michel-->
+            <div class="divmyphoto">
+                <img class="myphoto" src="/HTML/51D0860D-67AB-4626-A908-82BB92D1C150.jpg"/>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
