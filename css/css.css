@@ -1,1 +1,80 @@
-dg
+/* some animations for a smooth transition */
+@keyframes show {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+/* Added some font beacause i didn't like the web safe fonts  */
+@font-face {
+    font-family: cinzel;
+    src: url(/HTML/static/Cinzel-Regular.ttf);
+}
+
+h2 {
+    text-align: center;
+    color: #565656;
+
+}
+
+body {
+    background-image: url(/HTML/wp6806737.jpg);
+    background-size: cover;
+     /* A background color just in case the background image doesn't count for the instructions and I dont get points off   */
+    background-color: rgb(114, 114, 181);
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+h1 {
+    font-family: cinzel;
+    color: #565656;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Some classes for my divs */
+
+.divmyphoto {
+    justify-content: center;
+    display: flex;
+}
+
+.myphoto {
+    border-top-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+}
+
+main {
+    background-color: #ffffff9e;
+    box-shadow: 2px 2px 20px 0px #00000054;
+    border-radius: 10px;
+    padding: 40px;
+    width: 70%;
+    animation-duration: 2s;
+    animation-name: show;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+p {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    color: #595959;
+}
+img{
+    width: 100%;
+    
+}
