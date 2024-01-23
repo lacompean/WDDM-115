@@ -63,6 +63,7 @@ main {
     animation-name: show;
     margin-top: 2%;
     margin-bottom: 2%;
+    align-items: center;
 
 }
 
@@ -75,6 +76,8 @@ figcaption {
     color: #595959;
 }
 img{
-    width: 100%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
     
 }
