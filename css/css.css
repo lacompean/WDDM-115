@@ -84,6 +84,7 @@ img{
     border-bottom-right-radius: 60px;
     border-top-left-radius: 60px;
     transform: rotate(4deg);
+    border: solid white 5px;
 }
 ul{
     color: white;
