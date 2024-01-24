@@ -22,7 +22,7 @@ h2 {
 }
 
 body {
-    background-image: url(/HTML/wp6806737.jpg);
+    background-image: url(https://images4.alphacoders.com/615/615227.jpg);
     background-size: cover;
      /* A background color just in case the background image doesn't count for the instructions and I dont get points off   */
     background-color: rgb(114, 114, 181);
@@ -32,10 +32,6 @@ body {
     
 }
 
-.text {
-    color: whitesmoke;
-    font-family: 'Maven Pro', sans-serif;
-}
 
 
 
@@ -59,7 +55,7 @@ h1 {
 }
 
 main {
-    background-color: #ffffff9e;
+    background-color: #1919199e;
     box-shadow: 2px 2px 20px 0px #00000054;
     border-radius: 10px;
     padding: 40px;
