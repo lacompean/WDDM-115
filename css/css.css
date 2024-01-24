@@ -81,8 +81,10 @@ figcaption {
     color: #595959;
 }
 img{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     text-align: center;
-    
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    transform: rotate(4deg);
 }
