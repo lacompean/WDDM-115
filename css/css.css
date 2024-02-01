@@ -12,7 +12,7 @@
 /* Added some font beacause i didn't like the web safe fonts  */
 @font-face {
     font-family: cinzel;
-    src: url(/HTML/static/Cinzel-Regular.ttf);
+    src: url(/WDDM-115/html/static/Cinzel-Regular.ttf);
 }
 
 h2 {
