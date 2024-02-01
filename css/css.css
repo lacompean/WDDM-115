@@ -85,6 +85,7 @@ img{
     transform: rotate(4deg);
     border: solid white 5px;
 }
-ul{
+li{
     color: rgb(107, 228, 236);  
+    font-family: cinzel;
 }
